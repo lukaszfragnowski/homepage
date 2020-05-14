@@ -1,73 +1,76 @@
 body {
-    width: 50%;
-    background: #fefefe;
-    background-image: url("images/mega_logo_30deg.png");
-    background-size: 120px;
-    font-family: "Helvetica", "Arial", "sans-serif";
-    font-size: 16px;
-    margin: auto;
+  width: 50%;
+  background: #fefefe;
+  background-image: url("images/mega_logo_30deg.png");
+  background-size: 120px;
+  font-family: "Helvetica", "Arial", "sans-serif";
+  font-size: 16px;
+  margin: auto;
 }
 
 header {
-    background: #ecc30b;
-    border-radius: 15px;
- }
+  background: #ecc30b;
+  border-radius: 15px;
+}
 
 section {
-    background:  rgba(20, 40, 53, .5);
-    border-radius: 15px;
+  background: rgba(20, 40, 53, 0.5);
+  border-radius: 15px;
 }
 
 article {
-    background:  rgba(20, 40, 53, .7);
-    border-radius: 15px;
+  background: rgba(20, 40, 53, 0.7);
+  border-radius: 15px;
 }
 
-h1, h2, h3, p {
-    color: #ffffff;
-    text-align: justify;
-    padding: 10px 20px;
-    text-shadow: 1px 1px 0 #000000;
+h1,
+h2,
+h3,
+p {
+  color: #ffffff;
+  text-align: justify;
+  padding: 10px 20px;
+  text-shadow: 1px 1px 0 #000000;
 }
 
 footer {
-    font-size: .8em;
+  font-size: 0.8em;
 }
 
 img {
-    width: 40%; 
-    padding: 10px 20px;
+  width: 40%;
+  padding: 10px 20px;
 }
 
 nav {
-    font-size: .8em;
+  font-size: 0.8em;
 }
 
 .logo {
-    height: 200px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  height: 200px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article-with-img {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .company-name {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .section-header {
-    color: tomato;
+  color: tomato;
 }
 
 .section-header {
-    color: limegreen;
+  color: limegreen;
 }
 
 .article-header {
-    color: aqua;
+  color: aqua;
 }
