@@ -9,17 +9,17 @@
 
   <body>
     <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="1_html.html">html</a>
-        <a href="2_css.html">css</a>
-        <a href="3_js.html">js</a>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="1_html.html">html</a>
+        <a class="navigation__link" href="2_css.html">css</a>
+        <a class="navigation__link" href="3_js.html">js</a>
       </nav>
     </header>
 
     <main>
       <header id="top">
-        <h1 class="company-name">
+        <h1 class="company-name company-name--js">
           megapracownia<br />Łukasz Frągnowski - strona testowa robiona w ramach
           WTF
         </h1>
@@ -27,8 +27,8 @@
       </header>
 
       <section>
-        <h2 class="section-header">Kim jestem?</h2>
-        <p>
+        <h2 class="article__title">Kim jestem?</h2>
+        <p class="article__description article__description--special">
           <a href="#footer">TEST link do stopki TEST</a> Cześć, od ponada
           zajmuję się projektowaniem sieci teletechnicznych. Od 2018 roku
           prowadzę działalność gospodarczą pod nazwą megapracownia Łukasz
@@ -46,13 +46,13 @@
       </section>
 
       <section>
-        <h2 class="section-header">Notatki z WTF: Co ten frontend</h2>
+        <h2 class="article__title">Notatki z WTF: Co ten frontend</h2>
 
-        <article>
-          <h3 class="article-header">
+        <article class="article">
+          <h3 class="article__title">
             Dzień pierwszy, a właściwie to tydzień pierszy w pigułce ;)
           </h3>
-          <p>
+          <p class="article__description">
             Długo zbierałem się do uczestnictwa w WTF, stąd pierwsze dwa
             tygodnie nadrabiam właśnie w trybie przyspieszonym. Wiedza, którą
             przekazuje Maciek nie jest na razie dla mnie niczym nowym, niemniej
@@ -61,18 +61,18 @@
           </p>
         </article>
 
-        <article>
-          <h3 class="article-header">Dzień (właściwie tydzień) drugi</h3>
-          <p>
+        <article class="article">
+          <h3 class="article__title">Dzień (właściwie tydzień) drugi</h3>
+          <p class="article__description">
             Podoba mi się praca w Visual Studio Code... od czasów "Pajączka"
             (młodsi mogą nie znać", trochę się w świecie narzędzi developerskich
             zmieniło :)
           </p>
         </article>
 
-        <article>
-          <h3 class="article-header">Dzień kolejny</h3>
-          <p>
+        <article class="article">
+          <h3 class="article__title">Dzień kolejny</h3>
+          <p class="article__description">
             Myślę, że ta testowa strona ostatecznie przerodzi się, w stronę
             domową mojej firmy, póki co mam wykupioną świetną domenę, na które
             wisi zaślepa z informacją, że strona jest w budowe (od jakichś dwóch
@@ -80,9 +80,9 @@
           </p>
         </article>
 
-        <article>
-          <h3 class="article-header">Kolejna notatka</h3>
-          <p>
+        <article class="article">
+          <h3 class="article__title">Kolejna notatka</h3>
+          <p class="article__description">
             Notatki tworzę, celem zagęszczenia treści na stronie, jak to
             powiedział Maciek "conten is the king". Nie będę też na razie
             wyrywał się przed program szkolenia i powstrzymam się od działań,
@@ -91,26 +91,26 @@
           </p>
         </article>
 
-        <article>
-          <h3 class="article-header">I tu kolejna notatka</h3>
-          <p>
+        <article class="article">
+          <h3 class="article__title">I tu kolejna notatka</h3>
+          <p class="article__description">
             Nosi mnie aż, do poznania kolejnych właściwości css, ale poczekam na
             poniedziałek...
           </p>
         </article>
 
-        <article>
-          <h3 class="article-header">
+        <article class="article">
+          <h3 class="article__title">
             Tu pozwolę sobie zamieścię algorytm... hmm...
           </h3>
-          <p>ZJEDZ KANAPKĘ</p>
+          <p class="article__description">ZJEDZ KANAPKĘ</p>
           <img src="images/schemat.jpg" alt="schemat blokowy kanapki" />
           <img src="images/schemat.jpg" alt="tekst alternatywny" />
         </article>
 
-        <article>
-          <h3 class="article-header">Jeśli chodzi o żart...</h3>
-          <p>
+        <article class="article">
+          <h3 class="article__title">Jeśli chodzi o żart...</h3>
+          <p class="article__description">
             ... cóż mam zbyt ciężke czasami poczucie humoru, co mogłoby rodzić
             konsekwencje prawne, niemniej pobawiłem się trochę podmieniając
             zdjęcia "ulubionych polityków" na wikipedii, co ciekawe taka szybka
@@ -120,7 +120,7 @@
       </section>
     </main>
     <footer id="footer">
-      <p>
+      <p class="article__description">
         Projekt wykonany w ramach WTF (praca domowa, tydzień drugi)
         <a href="#top">TEST wróć na górę strony TEST</a>
       </p>
