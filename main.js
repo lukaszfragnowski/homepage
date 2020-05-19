@@ -6,7 +6,7 @@ console.log(age);
 
 console.log(`cześć, nazywam się ${firstName} i mam ${age} lat.`);
 
+const pracaDomowa = document.querySelector(".empty");
 
-const heading = document.querySelector('.company-name--js');
-
-heading.innerHTML = `cześć, nazywam się ${firstName} i mam ${age} lat.`;
+pracaDomowa.innerHTML =
+  "to jest test dodania teści w pustym divie przez js to jest test dodania teści w pustym divie przez js, to jest test dodania teści w pustym divie przez js, to jest test dodania teści w pustym divie przez js";

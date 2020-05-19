@@ -8,25 +8,32 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <nav class="navigation">
-        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link navigation__link--selected" href="index.html"
+          >Strona główna</a
+        >
         <a class="navigation__link" href="1_html.html">html</a>
         <a class="navigation__link" href="2_css.html">css</a>
         <a class="navigation__link" href="3_js.html">js</a>
       </nav>
     </header>
 
+    <!-- na potrzeby pracy domowej  -->
+    <div class="empty"></div>
+
     <main>
-      <header id="top">
-        <h1 class="company-name company-name--js">
-          megapracownia<br />Łukasz Frągnowski - strona testowa robiona w ramach
-          WTF
+      <header class="header" id="top">
+        <h1 class="company-name">
+          Łukasz Frągnowski<br />domowa strona testowa
         </h1>
-        <p>domowa strona testowa</p>
+        <p class="company-name__motto">
+          domowa strona testowa domowa strona testowa domowa strona testowa
+          domowa strona testowa domowa strona testowa domowa strona testowa
+        </p>
       </header>
 
-      <section>
+      <section class="section">
         <h2 class="article__title">Kim jestem?</h2>
         <p class="article__description article__description--special">
           <a href="#footer">TEST link do stopki TEST</a> Cześć, od ponada
@@ -45,7 +52,7 @@
         </p>
       </section>
 
-      <section>
+      <section class="section">
         <h2 class="article__title">Notatki z WTF: Co ten frontend</h2>
 
         <article class="article">
@@ -104,8 +111,13 @@
             Tu pozwolę sobie zamieścię algorytm... hmm...
           </h3>
           <p class="article__description">ZJEDZ KANAPKĘ</p>
-          <img src="images/schemat.jpg" alt="schemat blokowy kanapki" />
-          <img src="images/schemat.jpg" alt="tekst alternatywny" />
+          <div class="wrapper">
+            <img
+              src="images/schemat.jpg"
+              class="article__image"
+              alt="schemat blokowy kanapki"
+            />
+          </div>
         </article>
 
         <article class="article">
@@ -119,7 +131,7 @@
         </article>
       </section>
     </main>
-    <footer id="footer">
+    <footer class="footer" id="footer">
       <p class="article__description">
         Projekt wykonany w ramach WTF (praca domowa, tydzień drugi)
         <a href="#top">TEST wróć na górę strony TEST</a>
