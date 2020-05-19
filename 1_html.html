@@ -8,26 +8,33 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="1_html.html">html</a>
-        <a href="2_css.html">css</a>
-        <a href="3_js.html">js</a>
+    <header class="header">
+      <nav class="navigation">
+        <a class="navigation__link" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link navigation__link--selected href="1_html.html">html</a>
+        <a class="navigation__link" href="2_css.html">css</a>
+        <a class="navigation__link" href="3_js.html">js</a>
+        <img
+          src="images/megapracownia_logotyp_300dpi_full.png"
+          class="header__logo"
+          alt="megapracownia"
+        />
       </nav>
     </header>
 
     <main>
-      <header id="top">
+      <header class="header" id="top">
         <h1 class="company-name">megapracownia<br />Łukasz Frągnowski</h1>
-        <p>podstrona 1 - html</p>
+        <p class="company-name__subtext">podstrona 1 - html</p>
       </header>
-      <section>
-        <h2 class="section-header">To jest nagłówek sekcji podstrony nr 1</h2>
+      <section class="section">
+        <h2 class="article__title">To jest nagłówek sekcji podstrony nr 1</h2>
         <article>
           <h3 class="article-header">To jest nagłówek artykułu</h3>
           <div class="article-with-img">
-            <p>
+            <p class="article__description">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Similique fugit repellendus repudiandae quam sed natus saepe
               consectetur. Facere, eius voluptate fuga magnam illo qui enim
@@ -37,15 +44,15 @@
               voluptate fuga magnam illo qui enim sequi vel perferendis, eum
               saepe.
             </p>
-            <img class="logo" src="images/html_logo.png" alt="html logo" />
+            <img class="image" src="images/html_logo.png" alt="html logo" />
           </div>
         </article>
       </section>
     </main>
-    <footer id="stopka">
-      <p>
+    <footer class="footer" id="footer">
+      <p class="article__description">
         Projekt wykonany w ramach WTF (praca domowa, tydzień drugi)
-        <a href="#top">wróć na górę strony</a>
+        <a href="#top">TEST wróć na górę strony TEST</a>
       </p>
     </footer>
   </body>
