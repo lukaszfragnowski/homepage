@@ -5,12 +5,14 @@ body {
   background-blend-mode: color;
   font-family: "Helvetica", "Arial", "sans-serif";
   font-size: 16px;
-  width: 800px;
+  max-width: 800px;
+  min-width: 650px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 12px;
   color: #fff;
 }
+
 .header {
   background: orange;
   border-radius: 12px;
@@ -75,6 +77,19 @@ body {
 
 .article__description--special {
   border: 4px dotted yellow;
+}
+
+.list {
+  list-style: upper-roman;
+}
+
+.list__item {
+  margin-left: 16px;
+  
+}
+
+.table {
+  width: 100%;
 }
 
 .article__title {

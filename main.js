@@ -6,7 +6,23 @@ console.log(age);
 
 console.log(`cześć, nazywam się ${firstName} i mam ${age} lat.`);
 
-const pracaDomowa = document.querySelector(".empty");
 
-pracaDomowa.innerHTML =
-  "to jest test dodania teści w pustym divie przez js to jest test dodania teści w pustym divie przez js, to jest test dodania teści w pustym divie przez js, to jest test dodania teści w pustym divie przez js";
+
+function calculate(myNumber) {
+  console.log(`dostałam ${myNumber}`);
+  return myNumber*7;
+}
+
+const myResult = calculate(1);
+console.log(myResult);
+
+
+function createContent(querySelectorContent, content) {
+  const pracaDomowa = document.querySelector(querySelectorContent);
+  pracaDomowa.innerHTML = content;
+}
+
+createContent('.empty--js', 'dowolny jakby tekst uruchomiony w funkcją');
+
+console.log(console);
+console.log(typeof console.log); 

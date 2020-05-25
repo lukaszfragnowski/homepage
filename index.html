@@ -23,9 +23,9 @@
     </header>
 
     <!-- na potrzeby pracy domowej  -->
-    <div class="empty"></div>
+    <div class="empty empty--js"></div>
 
-    <main>
+    <main class="main">
       <header class="header" id="top">
         <h1 class="company-name">
           Łukasz Frągnowski<br />domowa strona testowa
@@ -39,13 +39,15 @@
       <section class="section">
         <h2 class="article__title">Kim jestem?</h2>
         <p class="article__description article__description--special">
-          <a href="#footer">TEST link do stopki TEST</a> Cześć, od ponada
-          zajmuję się projektowaniem sieci teletechnicznych. Od 2018 roku
-          prowadzę działalność gospodarczą pod nazwą megapracownia Łukasz
-          Frągnowski realizującą usługi w branży projektowej. Moja przygoda z
-          programowaniem zaczęła się już w liceum, czyli ponad 20 lat temu.
-          Niestety, na wiele lat rozstałem się z pisaniem kodu. Od kilku lat
-          staram się odświeżyć zapomnianą pasję, natomiast ogrom technologii
+          <a class="article__description--link" href="#footer"
+            >TEST link do stopki TEST</a
+          >
+          Cześć, od ponada zajmuję się projektowaniem sieci teletechnicznych. Od
+          2018 roku prowadzę działalność gospodarczą pod nazwą megapracownia
+          Łukasz Frągnowski realizującą usługi w branży projektowej. Moja
+          przygoda z programowaniem zaczęła się już w liceum, czyli ponad 20 lat
+          temu. Niestety, na wiele lat rozstałem się z pisaniem kodu. Od kilku
+          lat staram się odświeżyć zapomnianą pasję, natomiast ogrom technologii
           oraz ich dynamiczny rozwój nie ułatwiają zadania... strona domowa
           mojej firmy nie powstała do dziś, mam nadzieję że moja obecność w
           programie WTF to zmieni :) Nie będę się również wzbraniał od
@@ -132,12 +134,79 @@
             podmianka nie zadzialała na fb
           </p>
         </article>
+
+        <article class="article">
+          <h4 class="article__title">Lista fajnych znaczników</h4>
+          <div class="article__description">
+            <ul class="list">
+              <li class="list__item">UL</li>
+              <li class="list__item">OL</li>
+              <li class="list__item">SECTION</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="article">
+          <h4 class="article__title">Listy i tabele</h4>
+          <div class="article__description">
+            <ol class="list">
+              <li class="list__item">Przanalizuj treść</li>
+              <li class="list__item">Podziel ją na sekcje</li>
+              <li class="list__item">Utwórz pierwszą wersję kodu</li>
+            </ol>
+          </div>
+          <div class="article__description">
+            <dl class="list">
+              <dt>div</dt>
+              <dd>opis mojego diva</dd>
+              <dt>article</dt>
+              <dd>opis mojego artykułu</dd>
+            </dl>
+          </div>
+        </article>
+
+        <article class="article">
+          <h4 class="article__title">Rozpiska WTF</h4>
+          <div class="article__description">
+            <table class="table">
+              <caption>
+                To jest caption: Spis odcinków WTF
+              </caption>
+              <thead>
+                <tr>
+                  <th>lp</th>
+                  <th>tytuł</th>
+                  <th>czas trwania</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1.</td>
+                  <td>tytuł 1</td>
+                  <td>12:58</td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Minus, dolores non. Officia doloremque minima id, quam unde
+                    magni velit quis. Autem quis non aut dolorum vel, sapiente
+                    cupiditate exercitationem corporis! 2
+                  </td>
+                  <td>12:34</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
       </section>
     </main>
     <footer class="footer" id="footer">
       <p class="article__description">
         Projekt wykonany w ramach WTF (praca domowa, tydzień drugi)
-        <a href="#top">TEST wróć na górę strony TEST</a>
+        <a class="article__description--link" href="#top"
+          >TEST wróć na górę strony TEST</a
+        >
       </p>
     </footer>
     <script src="main.js"></script>
