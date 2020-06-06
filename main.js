@@ -69,6 +69,7 @@ function myClick() {
   // console.log('kliknąłeś');
   const heading = document.querySelector(".main__header--js");
   heading.innerHTML = 'Fukasz Łrągnowski<br />domowa strona testowa';
+  heading.classList.toggle('klasa-z-js');
 }
 
 button.addEventListener('click', myClick)
@@ -79,4 +80,12 @@ button.addEventListener('click', myClick)
 //  heading.innerHTML = 'Fukasz Łrągnowski<br />domowa strona testowa';
 // });
 
+// hamburger
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+  const nav = document.querySelector('.navigation--js');
+  nav.classList.toggle('navigation--open');
+});
 
