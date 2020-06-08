@@ -49,6 +49,7 @@ body {
 
 .company-name {
   padding: 12px;
+  margin: 60px 0px 0px 0px;
 }
 
 .company-name__subtext {
@@ -144,7 +145,7 @@ body {
 
 .article__image {
   display: block;
-  width: 80%;
+  height: 300px;
   padding: 10px 20px;
   margin-left: auto;
   margin-right: auto;
@@ -159,7 +160,8 @@ body {
   color: greenyellow;
   padding: 2px 16px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .image {
@@ -169,6 +171,14 @@ body {
 
 .klasa-z-js {
   background: red;
+}
+
+/* week six homework - grid added to second section */
+
+.section--grid {
+  background: grey;
+  display: block;
+   
 }
 
 @media (min-width: 768px) {
@@ -204,4 +214,12 @@ body {
     background: rgba(255, 0, 0, 0.5);
     border-radius: 10px;
   }
+
+  .section--grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+    background: yellow;
+  }
+
 }
