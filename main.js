@@ -1,3 +1,15 @@
+// hamburger menu
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+  const nav = document.querySelector('.navigation--js');
+  nav.classList.toggle('navigation--open');
+});
+
+
+
+
 const firstName = "Lukasz";
 const age = 37;
 
@@ -80,14 +92,7 @@ button.addEventListener('click', myClick)
 //  heading.innerHTML = 'Fukasz Łrągnowski<br />domowa strona testowa';
 // });
 
-// hamburger
 
-const hamburger = document.querySelector('.hamburger--js');
-
-hamburger.addEventListener('click', () => {
-  const nav = document.querySelector('.navigation--js');
-  nav.classList.toggle('navigation--open');
-});
 
 
 
