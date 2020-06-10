@@ -10,16 +10,18 @@
 
   <body>
     <header class="header">
-      <nav class="navigation">
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu">
+        &#9776;
+      </button>
+
+      <nav class="navigation navigation--js">
         <a class="navigation__link" href="index.html">Strona główna</a>
         <a class="navigation__link" href="1_html.html">html</a>
         <a class="navigation__link" href="2_css.html">css</a>
-        <a class="navigation__link navigation__link--selected href="3_js.html">js</a>
-        <img
-          src="images/megapracownia_logotyp_300dpi_full.png"
-          class="header__logo"
-          alt="megapracownia"
-        />
+        <a class="navigation__link navigation__link--selected" href="3_js.html"
+          >js</a
+        >
+        <a class="navigation__link" href="4_formularze.html">formularze</a>
       </nav>
     </header>
 
@@ -45,8 +47,12 @@
     <footer class="footer" id="footer">
       <p class="article__description">
         Projekt wykonany w ramach WTF (praca domowa, tydzień drugi)
-        <a class="article__description--link" href="#top">TEST wróć na górę strony TEST</a>
+        <a class="article__description--link" href="#top"
+          >TEST wróć na górę strony TEST</a
+        >
       </p>
     </footer>
+    <!-- <script src="main.js"></script> -->
+    <script src="menu.js"></script>
   </body>
 </html>

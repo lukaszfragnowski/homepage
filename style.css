@@ -178,7 +178,16 @@ body {
 .section--grid {
   background: grey;
   display: block;
-   
+}
+
+.form {
+
+}
+
+.form__item {
+  display: block;
+  width: 300px;
+
 }
 
 @media (min-width: 768px) {
